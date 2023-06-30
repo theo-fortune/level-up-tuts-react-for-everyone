@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   const [isToggled, setIsToggled] = useState(false);
-  const showme = isToggled ? <h3>Shown Me</h3> : null;
+  // const showme = isToggled ? <h3>Shown Me</h3> : null;
   return (
     <div>
       {/* {showme} */}
